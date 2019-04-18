@@ -7,11 +7,18 @@ Game::Game(){
 
 void Game::run(){
     while(1){
-
+        work();
+        edit();
     }
 }
 
 void Game::work(){
+    if( grocer.isOpen() ){
+        for(auto customer : customers){
+            std::cout << "Happines: " << happiness << std::endl; 
+            happiness += customer.makeConversation();
+        }
+    }
 
 }
 

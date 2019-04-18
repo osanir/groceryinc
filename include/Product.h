@@ -8,4 +8,4 @@ private:
     std::string name;
     float price;
     int quantity;
-}
+};

@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 
+
 struct DialogueNode{
     std::string text;
     std::string opiton1, option2;
@@ -12,7 +13,9 @@ class Dialogue{
 public:
     Dialogue();
     int showDialogue();
+    void setDialogue();
 private:
-    DialogueNode *root;
+    struct DialogueNode *root;
     int effect;
-}
+    struct DialogueNode all_dialogues[4];
+};

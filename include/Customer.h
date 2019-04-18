@@ -2,8 +2,9 @@
 #include "Dialogue.h"
 class Customer{
 public:
-    void makeConversation();
+    Customer();
+    int makeConversation();
 private:
     std::string name;
     Dialogue dialogue;
-}
+};

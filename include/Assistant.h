@@ -12,4 +12,4 @@ private:
     float cost;
     float friendliness;
     float dexterity;
-}
+};

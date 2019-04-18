@@ -11,4 +11,5 @@ private:
     float money;
     float happiness;
     float security;
+    Customer customers[10];
 };
